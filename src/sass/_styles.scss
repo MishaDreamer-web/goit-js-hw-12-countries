@@ -1,0 +1,34 @@
+body {
+  background-color: #af85d2;
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+  color: lightgreen;
+}
+.container {
+  text-align: center;
+  padding: 50px;
+}
+.input {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.subtitle {
+  font-weight: bold;
+}
+.title {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+}
