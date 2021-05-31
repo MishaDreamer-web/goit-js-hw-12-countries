@@ -6,7 +6,8 @@
   "homepage": "https://MishaDreamer-web.github.io/goit-js-hw-12-countries",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,10 @@
   },
   "devDependencies": {
     "@pnotify/core": "^5.2.0",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
   },
